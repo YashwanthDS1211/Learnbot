@@ -2,9 +2,7 @@ import streamlit as st
 import requests
 import threading
 import random
-import google.generativeai as genai
 
-# Configure Gemini API
 genai.configure(api_key="AIzaSyBpO2gLWWCPasnY2mpoWK0359Zfb-P4kY0")
 
 app = Flask(__name__, static_folder="frontend/dist", static_url_path="/")
