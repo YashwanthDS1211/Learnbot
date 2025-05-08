@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import threading
 import random
-from flask import Flask, request, jsonify, send_from_directory
+import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import google.generativeai as genai
 
