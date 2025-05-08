@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import threading
 import random
-from flask_cors import CORS
 import google.generativeai as genai
 
 # Configure Gemini API
